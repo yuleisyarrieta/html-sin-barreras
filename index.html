@@ -1,11 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML sin barreras</title>
+
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+        }
+        .alerta {
+            background-color: yellow;
+            color: #000;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .boton {
+            background-color: #0066cc;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+
+        }
+        .boton:hover {
+            background-color: #004c99;
+        }
+    </style>
 </head>
 <body>
-    <h1>HTML sin barreras</h1>
+    <h1>Simulacion de daltonismo</h1>
+    <p>Este texto debe ser lejible con diferentes tipos de visión</p>
+    <div class="alerta">
+        Este es un mensaje importante
+    </div>
+    <button class="boton">Aceptar</button>
 </body>
 </html>
